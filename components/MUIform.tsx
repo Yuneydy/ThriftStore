@@ -3,9 +3,9 @@ import { Card, Button, Box, TextField,Stack, IconButton, InputBase, Container, T
 import { FavoriteBorder, PaddingRounded, PersonOutline, ShoppingCart } from '@mui/icons-material';
 import Link from 'next/link'; 
 import React from 'react';
-import {useForm} from "react-hook-form"
-import {DevTool} from "@hookform/devtools"
-import { useRouter } from 'next/router'
+import {useForm} from "react-hook-form";
+import {DevTool} from "@hookform/devtools";
+import { useRouter } from 'next/router';
 
 type FormValues = {
     name: String 
